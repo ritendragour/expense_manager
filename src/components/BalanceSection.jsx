@@ -68,6 +68,9 @@ const BalanceSection = () => {
         <button>
           Save Transaction<i className="fa-solid fa-floppy-disk"></i>
         </button>
+        <div className="w-100">
+        <p className="notess">You want to subtract transactions. so please use the minus sign (-)</p>
+        </div>
       </form>
     </div>
   );
